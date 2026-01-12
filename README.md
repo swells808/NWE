@@ -1,11 +1,21 @@
-<div align="center">
+# Nationwide Erectors Website
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This is the official website for Nationwide Erectors, a premier steel erection company specializing in commercial and industrial projects across the USA.
 
-  <h1>Built with AI Studio</h2>
+## Tech Stack
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **React**: UI library
+- **TypeScript**: Type safety
+- **Tailwind CSS**: Styling (via CDN)
+- **Lucide React**: Icons
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Project Structure
 
-</div>
+- `components/`: Reusable UI components (Hero, Services, Projects, etc.)
+- `types.ts`: TypeScript interfaces for data models
+- `index.tsx`: Application entry point
+- `index.html`: Main HTML template
+
+## Development
+
+This project uses ES Modules and TypeScript. It requires a build step or a runtime environment that supports compiling TSX to JavaScript (like Vite, Parcel, or a compatible cloud IDE).
