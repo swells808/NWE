@@ -8,14 +8,24 @@ This is the official website for Nationwide Erectors, a premier steel erection c
 - **TypeScript**: Type safety
 - **Tailwind CSS**: Styling (via CDN)
 - **Lucide React**: Icons
+- **Vite**: Build tool
 
-## Project Structure
+## Deployment
 
-- `components/`: Reusable UI components (Hero, Services, Projects, etc.)
-- `types.ts`: TypeScript interfaces for data models
-- `index.tsx`: Application entry point
-- `index.html`: Main HTML template
+This project is configured to run on Netlify.
+
+**Netlify Settings:**
+- **Build command:** `npm run build`
+- **Publish directory:** `dist`
 
 ## Development
 
-This project uses ES Modules and TypeScript. It requires a build step or a runtime environment that supports compiling TSX to JavaScript (like Vite, Parcel, or a compatible cloud IDE).
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Run local server:
+   ```bash
+   npm run dev
+   ```
